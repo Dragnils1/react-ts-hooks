@@ -40,7 +40,10 @@ function App() {
         <Context.Provider value={color.dark}>
           <User hiChange={pureChange} children={<><hr/><h2 style={{ background: 'red' }}>{hi}</h2><hr/></>} />
           <Counter />
-          <Admin />
+          
+            <Admin />
+          
+          
         </Context.Provider>
       </header>
     </div>
